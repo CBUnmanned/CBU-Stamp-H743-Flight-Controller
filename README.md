@@ -1,7 +1,8 @@
 
+
 # CBUnmanned H743 Stamp
 
-The [CBUnmanned H743 Stamp](https://cbunmanned.com/store) is a flight controller based on the FMU-V6 standards & is designed for low volume OEMs as a drop in way to add ArduPilot to their custom hardware builds, without the complexities and cost of direct ArduPilot integration. It is a part of CBUnmanned's wider ["Stamp" Eco-System](https://cbunmanned.com). Mounting footprints and symbols are available along with examples of basic usage on the  [Wiki](https://wiki.cbunmanned.com).
+The [CBUnmanned H743 Stamp](https://cbunmanned.com/store) is a flight controller based on the FMUv6 standards & is designed for low volume OEMs as a drop in way to add ArduPilot to their custom hardware builds. It is a part of CBUnmanned's wider ["Stamp" Eco-System](https://cbunmanned.com), which brings together all the typical avionics hardware into a neat custom carrier PCB. Mounting footprints and symbols are available along with examples of basic usage on the  [Wiki](https://wiki.cbunmanned.com).
 
 ![H743StampFront&Back](H743StampFront&Back.png "H743FB")
 
@@ -115,6 +116,16 @@ The H743 Stamp has a built in compass, the BMM150. Due to potential interference
 ### USB
 
 USB Signals D+ & D- are available to route to a suitable connector for your project.
+
+### Safety Button
+
+Optional, if it is not fitted remove the check from arming mask. To activate short this pad to 3.3v with a momentary push button (Press & Hold)
+
+### Power
+
+A regulated 3.3v output is available from the stamp for use with the safety button. WARNING! This is shared with the main IC - Do NOT use for accessories. Keep current draw under 0.1A!
+
+The Stamp requires a stable 5v supply input of at least 1.5A. This directly powers the 5v components and supplies the 3.3v LDOs with power. Typical idle usage is 0.35A @ 5v.
 
 ## Loading Firmware
 
