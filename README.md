@@ -100,6 +100,8 @@ The PWM outputs are in 3 groups:
 
 Channels within the same group need to use the same output rate. If any channel in a group uses D-Shot then all channels in the group need to use D-Shot.
 
+BiDirectional DShot available on the first 8 outputs.
+
 A buzzer alarm signal is available on Timer 14.
 
 ### Analog Inputs (Purple Fade)
