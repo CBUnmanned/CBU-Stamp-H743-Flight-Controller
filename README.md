@@ -2,7 +2,7 @@
 
 # CBUnmanned H743 Stamp
 
-The [CBUnmanned H743 Stamp](https://cbunmanned.com/store) is a flight controller loosely based on the FMUv6 standards & is designed for low volume OEMs as a drop in way to add ArduPilot to their custom hardware builds. It is a part of CBUnmanned's wider ["Stamp" Eco-System](https://wiki.cbunmanned.com/wiki/cbunmanned-stamp-eco-system), which brings together all the typical avionics hardware into a neat custom carrier PCB. Mounting footprints and symbols are available along with examples of basic usage on the  [Wiki](https://wiki.cbunmanned.com).
+The [CBUnmanned H743 Stamp](https://cbunmanned.com/store) is a flight controller loosely based on the FMUv6 standards & is designed for low volume OEMs as a drop in way to add ArduPilot to their custom hardware builds. It is a part of CBUnmanned's wider ["Stamp" Eco-System](https://wiki.cbunmanned.com/wiki/cbunmanned-stamp-eco-system), which brings together all the typical avionics hardware into a neat custom carrier PCB. Mounting footprints and symbols are available along with examples of basic usage on the  [Wiki](https://wiki.cbunmanned.com/wiki/cbunmanned-stamp-eco-system/h743-flight-controller).
 
 ![H743StampFront&Back](H743StampFront&Back.png "H743FB")
 
@@ -68,7 +68,7 @@ GPS 1 & 2 are on Serial 3 & 4 respectively.
 
 ### RC Input
  
-RC input is configured on the USART 6 Rx Pin. This pin allows all RC protocols compatible with direct connection to a H7 IC (SBus, CRSF etc).
+RC input is configured on the USART 6 Rx Pin. This pin allows all RC protocols compatible with direct connection to a H7 IC (SBus requires setting the bitmask for hardware inversion, CRSF etc), PPM is NOT supported.
 
 USART 6 Tx is available for use with bi directional protocols.
 
