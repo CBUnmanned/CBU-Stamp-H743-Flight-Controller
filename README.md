@@ -9,11 +9,11 @@ The [CBUnmanned H743 Stamp](https://cbunmanned.com/store) is a flight controller
 ## Features
 - Class leading H7 SOC.
 - Triple IMU sensors for extra redundancy.
-- Based on FMU-V6 
+- Based loosely on FMU-V6.
 - Direct solder mounting or optional 1.27mm header.
 - x1 Ethernet and x2 CAN for easy integration with the next generation of UAV accessories.
 - All complicated/supporting circuitry is on-board, just power with 5v.
-- Just 22mm x 24.25mm & 1.9g
+- Just 22mm x 24.25mm & 1.9g.
 
 ## Specifications
 - Processor
@@ -78,13 +78,13 @@ An optional IOMCU can be connected to this serial port, a compatible custom buil
 2 CAN buses are available, each with a built in 120 ohm termination resistor.
 
 ### I2C (Maroon Fade)
-I2C 1 - Internal for BMM150 Compass
+I2C 1 - Internal for BMM150 Compass.
 
-I2C 2 - Internal for DPS310 Barometer
+I2C 2 - Internal for DPS310 Barometer.
 
-I2C 3 - External With internal 2.2k Pull Up
+I2C 3 - External With internal 2.2k Pull Up.
 
-I2C 4 - External With internal 2.2k Pull Up 
+I2C 4 - External With internal 2.2k Pull Up.
 
 ### SPI (Cyan Fade)
 SPI 4 is available for use with external sensors alongside a Chip Select and Data Ready pin, compatible custom build of the firmware required.
@@ -109,7 +109,7 @@ A buzzer alarm signal is available on Timer 14.
 The board has two ADC input channels for Voltage (0-3.3v) and Current (0-3.3v) measurement. Settings are dependent on the external hardware used. 
 
 ### Ethernet (Green Fade)
-Ethernet is available on 4 output pads and has internal magnetics supporting direct connection to external equipment, no need for a large RJ45 connector
+Ethernet is available on 4 output pads and has internal magnetics supporting direct connection to external equipment, no need for a large RJ45 connector.
 
 ### Compass
 
@@ -121,7 +121,7 @@ USB Signals D+ & D- are available to route to a suitable connector for your proj
 
 ### Safety Button
 
-Optional, if it is not fitted remove the check from arming mask. To activate short this pad to 3.3v with a momentary push button (Press & Hold)
+Optional, if it is not fitted remove the check from arming mask. To activate short this pad to 3.3v with a momentary push button (Press & Hold).
 
 ### Power
 
