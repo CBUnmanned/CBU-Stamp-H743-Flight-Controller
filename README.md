@@ -9,7 +9,8 @@ The [CBUnmanned H743 Stamp](https://cbunmanned.com/store) is a flight controller
 ## Features
 - Class leading H7 SOC.
 - Triple IMU sensors for extra redundancy.
-- Based loosely on FMU-V6.
+- Based on the FMU-V6 standards.
+- Micro SD Card for Logging/LUA Scripting.
 - Direct solder mounting or optional 1.27mm header.
 - x1 Ethernet and x2 CAN for easy integration with the next generation of UAV accessories.
 - All complicated/supporting circuitry is on-board, just power with 5v.
